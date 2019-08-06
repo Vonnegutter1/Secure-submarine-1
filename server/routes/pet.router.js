@@ -23,7 +23,7 @@ router.post('/', (req, res) => {
     console.log('is authenticated?', req.isAuthenticated());
     console.log('user', req.user);
     res.sendStatus(200);
-    
+
 });
 
 module.exports = router;
